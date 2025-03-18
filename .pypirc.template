@@ -1,0 +1,18 @@
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+username = __token__
+password = your_pypi_token
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = __token__
+password = your_testpypi_token
+
+# 注意：这只是一个模板文件
+# 实际使用时，请将此文件复制到您的主目录下并命名为.pypirc
+# 然后替换token为您在PyPI上获取的真实token
+# 文件路径应为：~/.pypirc
