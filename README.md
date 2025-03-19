@@ -47,7 +47,7 @@ pip uninstall Pyzh
 推荐使用 `from ... import *` 的方式导入 Pyzh 中文库，这样可以提高代码的可读性。例如：
 
 ```python
-from Pyzh.内置函数 import *  # 导入 Python 标准库的内置命令
+from pyzh.内置函数 import *  # 导入 Python 标准库的内置命令
 ```
 
 **注意**：虽然 `import` 有多种方式，但 `from ... import *` 是最适合使用 Pyzh 中文库的方式，它能够使代码更加简洁、易读，且方便维护。

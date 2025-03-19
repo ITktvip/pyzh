@@ -6,13 +6,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="pyzh",  # 包名，在PyPI上唯一
-    version="0.1.0",  # 版本号
-    author="Tech#6",  # 作者
-    author_email="contact@tech#6.org",  # 更新为更专业的邮箱
+    version="0.1.1",  # 版本号
+    author="Tech-Six",  # 作者
+    author_email="contact@tech6.org",  # 更新为更专业的邮箱
     description="Python中文编程包，让中文用户使用自然语法进行Python编程",  # 优化简短描述
     long_description=long_description,  # 长描述
     long_description_content_type="text/markdown",  # 长描述的内容类型
-    url="https://github.com/itktvip/pyzh",  # 更新为更合适的项目主页
+    url="https://github.com/Tech-Six/Pyzh",  # 更新为更合适的项目主页
     packages=find_packages(),  # 自动发现包
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -36,8 +36,8 @@ setup(
     project_urls={
         "Bug Tracker": "https://github.com/itkt/pyzh/issues",
         "Documentation": "https://github.com/itkt/pyzh/wiki",
-        "Source Code": "https://github.com/itkt/pyzh",
-        "Homepage": "https://itkt.org",  # 添加主页链接
+        "Source Code": "https://github.com/Tech-Six/Pyzh",
+        "Homepage": "https://github.com/Tech-Six/Pyzh",  # 添加主页链接
     },
     include_package_data=True,  # 包含package_data中的数据文件
     zip_safe=False,  # 确保安装后可以正常访问包中的数据文件
